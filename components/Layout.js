@@ -1,4 +1,4 @@
-export default () => (
+export default ({ children }) => (
   <div>
     <style jsx global>{`
       html, body {
@@ -8,5 +8,6 @@ export default () => (
         background: #202020;
       }
     `}</style>
+    {children}
   </div>
 )
