@@ -1,7 +1,12 @@
 import Layout from '../components/Layout'
+import Head from 'next/head'
 
 export default () => (
   <Layout>
+    <Head>
+      <title>GraphQL BA</title>
+      <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+    </Head>
     <div className="container">
       <style jsx>{`
         .container {
