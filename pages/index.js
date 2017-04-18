@@ -1,4 +1,5 @@
 import Layout from '../components/Layout'
+import LinksList from '../components/LinksList'
 import Head from 'next/head'
 
 export default () => (
@@ -28,10 +29,7 @@ export default () => (
         }
       `}</style>
       <img src="/static/logo.png" alt="" />
-      {/* <ul>
-        <li><a href="">Meetup</a></li>
-        <li><a href="">Youtube</a></li>
-      </ul> */}
+      <LinksList />
     </div>
   </Layout>
 )
